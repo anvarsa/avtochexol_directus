@@ -1,14 +1,14 @@
-import { getHomePageData } from "@/lib/directus";
-import SiteHeader from "@/components/SiteHeader";
-import CountdownBanner from "@/components/CountdownBanner";
-import Hero from "@/components/Hero";
-import ModelPricing from "@/components/ModelPricing";
-import BeforeAfter from "@/components/BeforeAfter";
-import MediaGallery from "@/components/MediaGallery";
-import Reviews from "@/components/Reviews";
-import Articles from "@/components/Articles";
-import ContactSection from "@/components/ContactSection";
-import SiteFooter from "@/components/SiteFooter";
+import { getHomePageData } from "../lib/directus";
+import SiteHeader from "../components/SiteHeader";
+import CountdownBanner from "../components/CountdownBanner";
+import Hero from "../components/Hero";
+import ModelPricing from "../components/ModelPricing";
+import BeforeAfter from "../components/BeforeAfter";
+import MediaGallery from "../components/MediaGallery";
+import Reviews from "../components/Reviews";
+import Articles from "../components/Articles";
+import ContactSection from "../components/ContactSection";
+import SiteFooter from "../components/SiteFooter";
 
 // Revalidate the whole page every 5 minutes (ISR). Directus content
 // changes by hand, not by the second, so this keeps pages fast while

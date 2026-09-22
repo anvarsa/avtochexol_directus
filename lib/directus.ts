@@ -51,7 +51,7 @@ async function directusFetch<T>(
   if (!DIRECTUS_URL) {
     throw new Error(
       "DIRECTUS_URL is not set. Add it to your .env.local, e.g. " +
-        "DIRECTUS_URL=https://cms.avtochexol.uz"
+        "DIRECTUS_URL=https://angor.uz"
     );
   }
 
